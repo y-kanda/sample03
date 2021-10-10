@@ -119,12 +119,13 @@ h1 a:hover {
 
 .menu-trigger {
     position: relative;
-    width: 40px;
+    width: 32px;
     height: 28px;
     background: none;
     border: none;
     appearance: none;
     cursor: pointer;
+    margin-right: 5px;
 }
 
 .menu-trigger span {
@@ -614,7 +615,7 @@ td {
 
 // contact
 .contact {
-    background: linear-gradient(90deg, #05A5FA, #63FBD7, #67FFD6);
+    background-image: linear-gradient(90deg, #05A5FA, #63FBD7, #67FFD6);
     padding: 63px 4% 70px;
 }
 
@@ -766,6 +767,10 @@ td {
     display: none;
 }
 
+.works-text-br {
+    display: none;
+}
+
 @media all and (max-width: 1024px) {
     .header-inner {
         max-width: 766px;
@@ -784,6 +789,10 @@ td {
     .top-img-box {
         padding-left: 10px;
         width: 50%;
+    }
+
+    .pc-sp-br {
+        display: none;
     }
 
     // blog
@@ -872,6 +881,10 @@ td {
 
     .top-copy {
         font-size: 29px;
+    }
+
+    .pc-sp-br {
+        display: inline;
     }
 
     // feature
